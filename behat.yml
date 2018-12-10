@@ -1,0 +1,18 @@
+default:
+  autoload:
+    '': %paths.base%/features/bootstrap
+  suites:
+    default:
+      contexts:
+        - FeatureContext
+      paths:
+        - %paths.base%/features
+  extensions:
+    Behat\MinkExtension:
+        browser_name: 'chrome'
+        goutte: ~
+        javascript_session: selenium2
+        selenium2:
+          wd_host: http://localhost/memberships
+          capabilities: { "version": "*", 'chrome': {'switches':['--start-maximized']}}
+        base_url: 'http://localhost/memberships/login.php'
