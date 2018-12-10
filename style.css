@@ -1,0 +1,56 @@
+.background {
+  /* background-color: #fafafa; */
+  /* background-color: red; */
+  /* background: linear-gradient(rgba(0, 0 50, 0.5), rgba(0, 0, 50, 0.5)), url("image.jpg"); */
+  background-image: url("image.jpg");
+  /* background: linear-gradient(rgba(0, 0 50, 0.5), rgba(0, 0, 50, 0.5)),url(image.jpg); */
+  /* background-size: cover; */
+  /* background-position: center; */
+}
+
+nav{
+  background-color: #ffad33;
+  height: 100px;
+}
+
+nav a{
+  font-size: 20px;
+}
+
+li .adminName {
+  padding-left: 300px;
+}
+
+.loginBox {
+  max-width: 700px;
+  float: none;
+  margin: 150px auto;
+}
+
+.createBox {
+  background-color: white;
+  max-width: 700px;
+  float: none;
+  margin: 150px auto;
+}
+
+.login-left {
+  background: #fff;
+  opacity: 0.8;
+  padding: 30px;
+}
+
+.login-right {
+  background: #fff;
+  padding: 30px;
+}
+
+.table {
+  background-color: white;
+  /* margin: 150px auto; */
+}
+
+h1 {
+  padding: 5px;
+  color: #999999;
+}
